@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0400E47722E0D3B80092C3F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400E47622E0D3B80092C3F5 /* AppDelegate.swift */; };
+		0400E47922E0D3B80092C3F5 /* GetRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400E47822E0D3B80092C3F5 /* GetRoomViewController.swift */; };
+		0400E47C22E0D3B80092C3F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400E47A22E0D3B80092C3F5 /* Main.storyboard */; };
+		0400E47E22E0D3B90092C3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0400E47D22E0D3B90092C3F5 /* Assets.xcassets */; };
+		0400E48122E0D3B90092C3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400E47F22E0D3B90092C3F5 /* LaunchScreen.storyboard */; };
+		04E6B01622F2223000772CEE /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6B01422F2223000772CEE /* DetailsCell.swift */; };
+		04E6B01722F2223000772CEE /* DetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E6B01522F2223000772CEE /* DetailsCell.xib */; };
+		A15B4DFD231C2E29008952D3 /* Routerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B4DFC231C2E29008952D3 /* Routerable.swift */; };
+		A169AAB5231C2D6A00B57B68 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169AAA4231C2D6A00B57B68 /* ServerResponse.swift */; };
+		A169AAB6231C2D6A00B57B68 /* Responsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169AAA5231C2D6A00B57B68 /* Responsable.swift */; };
+		A169AAB7231C2D6A00B57B68 /* NetworkEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169AAA7231C2D6A00B57B68 /* NetworkEnviroment.swift */; };
+		A169AAB8231C2D6A00B57B68 /* NetworkConstats.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169AAA8231C2D6A00B57B68 /* NetworkConstats.swift */; };
+		A169AAB9231C2D6A00B57B68 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169AAAA231C2D6A00B57B68 /* Requestable.swift */; };
+		A169AABB231C2D6A00B57B68 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169AAAC231C2D6A00B57B68 /* File.swift */; };
+		A169AABC231C2D6A00B57B68 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A169AAAD231C2D6A00B57B68 /* RequestError.swift */; };
+		A1749C79232104B400F22432 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1749C78232104B400F22432 /* RegisterViewController.swift */; };
+		A18466A3231C2F8800CCE618 /* RoomyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18466A2231C2F8800CCE618 /* RoomyRouter.swift */; };
+		A18466A5231C314500CCE618 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18466A4231C314500CCE618 /* User.swift */; };
+		A18466A7231C356E00CCE618 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18466A6231C356E00CCE618 /* LoginViewController.swift */; };
+		A19B7E5E23217B2B0020EA05 /* Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19B7E5D23217B2B0020EA05 /* Rooms.swift */; };
+		ABB1535D02DA83DBC8413E84 /* Pods_RoomyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A01C49719C643D8B61E1EE2 /* Pods_RoomyApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0400E47322E0D3B80092C3F5 /* RoomyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0400E47622E0D3B80092C3F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0400E47822E0D3B80092C3F5 /* GetRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRoomViewController.swift; sourceTree = "<group>"; };
+		0400E47B22E0D3B80092C3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0400E47D22E0D3B90092C3F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0400E48022E0D3B90092C3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0400E48222E0D3B90092C3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E6B01422F2223000772CEE /* DetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCell.swift; sourceTree = "<group>"; };
+		04E6B01522F2223000772CEE /* DetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsCell.xib; sourceTree = "<group>"; };
+		2A01C49719C643D8B61E1EE2 /* Pods_RoomyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoomyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56734D5C53398690782DD376 /* Pods-RoomyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomyApp.release.xcconfig"; path = "Target Support Files/Pods-RoomyApp/Pods-RoomyApp.release.xcconfig"; sourceTree = "<group>"; };
+		60F7C53074BDEF08B21A647B /* Pods-RoomyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomyApp.debug.xcconfig"; path = "Target Support Files/Pods-RoomyApp/Pods-RoomyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A15B4DFC231C2E29008952D3 /* Routerable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routerable.swift; sourceTree = "<group>"; };
+		A169AAA4231C2D6A00B57B68 /* ServerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		A169AAA5231C2D6A00B57B68 /* Responsable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Responsable.swift; sourceTree = "<group>"; };
+		A169AAA7231C2D6A00B57B68 /* NetworkEnviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEnviroment.swift; sourceTree = "<group>"; };
+		A169AAA8231C2D6A00B57B68 /* NetworkConstats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstats.swift; sourceTree = "<group>"; };
+		A169AAAA231C2D6A00B57B68 /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		A169AAAC231C2D6A00B57B68 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A169AAAD231C2D6A00B57B68 /* RequestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		A1749C78232104B400F22432 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A18466A2231C2F8800CCE618 /* RoomyRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomyRouter.swift; sourceTree = "<group>"; };
+		A18466A4231C314500CCE618 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A18466A6231C356E00CCE618 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A19B7E5D23217B2B0020EA05 /* Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rooms.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0400E47022E0D3B80092C3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB1535D02DA83DBC8413E84 /* Pods_RoomyApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0400E46A22E0D3B80092C3F5 = {
+			isa = PBXGroup;
+			children = (
+				0400E47522E0D3B80092C3F5 /* RoomyApp */,
+				0400E47422E0D3B80092C3F5 /* Products */,
+				27C651997E7673B6D8271E50 /* Pods */,
+				EBBC6988189B3D9E26E37102 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0400E47422E0D3B80092C3F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0400E47322E0D3B80092C3F5 /* RoomyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0400E47522E0D3B80092C3F5 /* RoomyApp */ = {
+			isa = PBXGroup;
+			children = (
+				A169AAA2231C2D6A00B57B68 /* Network */,
+				A1749C772321003100F22432 /* Config */,
+				A1749C752321001100F22432 /* App */,
+				0467FCE6231707370063CF6C /* Model */,
+				A1749C732320FFC600F22432 /* View */,
+				A1749C742320FFCB00F22432 /* Controller */,
+				A1749C762321002000F22432 /* Resources */,
+			);
+			path = RoomyApp;
+			sourceTree = "<group>";
+		};
+		0467FCE6231707370063CF6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A18466A4231C314500CCE618 /* User.swift */,
+				A19B7E5D23217B2B0020EA05 /* Rooms.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27C651997E7673B6D8271E50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60F7C53074BDEF08B21A647B /* Pods-RoomyApp.debug.xcconfig */,
+				56734D5C53398690782DD376 /* Pods-RoomyApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A169AAA2231C2D6A00B57B68 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A169AAA3231C2D6A00B57B68 /* Response */,
+				A169AAA6231C2D6A00B57B68 /* Constants */,
+				A169AAA9231C2D6A00B57B68 /* Request */,
+				A169AAAE231C2D6A00B57B68 /* Router */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A169AAA3231C2D6A00B57B68 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				A169AAA4231C2D6A00B57B68 /* ServerResponse.swift */,
+				A169AAA5231C2D6A00B57B68 /* Responsable.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		A169AAA6231C2D6A00B57B68 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A169AAA7231C2D6A00B57B68 /* NetworkEnviroment.swift */,
+				A169AAA8231C2D6A00B57B68 /* NetworkConstats.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A169AAA9231C2D6A00B57B68 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				A169AAAA231C2D6A00B57B68 /* Requestable.swift */,
+				A169AAAC231C2D6A00B57B68 /* File.swift */,
+				A169AAAD231C2D6A00B57B68 /* RequestError.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		A169AAAE231C2D6A00B57B68 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A15B4DFC231C2E29008952D3 /* Routerable.swift */,
+				A18466A2231C2F8800CCE618 /* RoomyRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A1749C732320FFC600F22432 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0400E47A22E0D3B80092C3F5 /* Main.storyboard */,
+				04E6B01422F2223000772CEE /* DetailsCell.swift */,
+				04E6B01522F2223000772CEE /* DetailsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1749C742320FFCB00F22432 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0400E47822E0D3B80092C3F5 /* GetRoomViewController.swift */,
+				A18466A6231C356E00CCE618 /* LoginViewController.swift */,
+				A1749C78232104B400F22432 /* RegisterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1749C752321001100F22432 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0400E47622E0D3B80092C3F5 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A1749C762321002000F22432 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0400E47D22E0D3B90092C3F5 /* Assets.xcassets */,
+				0400E47F22E0D3B90092C3F5 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1749C772321003100F22432 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0400E48222E0D3B90092C3F5 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		EBBC6988189B3D9E26E37102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A01C49719C643D8B61E1EE2 /* Pods_RoomyApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0400E47222E0D3B80092C3F5 /* RoomyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0400E48522E0D3B90092C3F5 /* Build configuration list for PBXNativeTarget "RoomyApp" */;
+			buildPhases = (
+				A5094DB9075B69F0AB3510C1 /* [CP] Check Pods Manifest.lock */,
+				0400E46F22E0D3B80092C3F5 /* Sources */,
+				0400E47022E0D3B80092C3F5 /* Frameworks */,
+				0400E47122E0D3B80092C3F5 /* Resources */,
+				F9E1FDFD41438A43BDAD4429 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomyApp;
+			productName = RoomyApp;
+			productReference = 0400E47322E0D3B80092C3F5 /* RoomyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0400E46B22E0D3B80092C3F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Fons;
+				TargetAttributes = {
+					0400E47222E0D3B80092C3F5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 0400E46E22E0D3B80092C3F5 /* Build configuration list for PBXProject "RoomyApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0400E46A22E0D3B80092C3F5;
+			productRefGroup = 0400E47422E0D3B80092C3F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0400E47222E0D3B80092C3F5 /* RoomyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0400E47122E0D3B80092C3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0400E48122E0D3B90092C3F5 /* LaunchScreen.storyboard in Resources */,
+				0400E47E22E0D3B90092C3F5 /* Assets.xcassets in Resources */,
+				04E6B01722F2223000772CEE /* DetailsCell.xib in Resources */,
+				0400E47C22E0D3B80092C3F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5094DB9075B69F0AB3510C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoomyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9E1FDFD41438A43BDAD4429 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoomyApp/Pods-RoomyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoomyApp/Pods-RoomyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoomyApp/Pods-RoomyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0400E46F22E0D3B80092C3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A169AABC231C2D6A00B57B68 /* RequestError.swift in Sources */,
+				04E6B01622F2223000772CEE /* DetailsCell.swift in Sources */,
+				A15B4DFD231C2E29008952D3 /* Routerable.swift in Sources */,
+				A169AAB7231C2D6A00B57B68 /* NetworkEnviroment.swift in Sources */,
+				A18466A5231C314500CCE618 /* User.swift in Sources */,
+				A169AAB5231C2D6A00B57B68 /* ServerResponse.swift in Sources */,
+				A1749C79232104B400F22432 /* RegisterViewController.swift in Sources */,
+				A19B7E5E23217B2B0020EA05 /* Rooms.swift in Sources */,
+				0400E47922E0D3B80092C3F5 /* GetRoomViewController.swift in Sources */,
+				0400E47722E0D3B80092C3F5 /* AppDelegate.swift in Sources */,
+				A169AABB231C2D6A00B57B68 /* File.swift in Sources */,
+				A169AAB8231C2D6A00B57B68 /* NetworkConstats.swift in Sources */,
+				A169AAB9231C2D6A00B57B68 /* Requestable.swift in Sources */,
+				A169AAB6231C2D6A00B57B68 /* Responsable.swift in Sources */,
+				A18466A7231C356E00CCE618 /* LoginViewController.swift in Sources */,
+				A18466A3231C2F8800CCE618 /* RoomyRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0400E47A22E0D3B80092C3F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0400E47B22E0D3B80092C3F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0400E47F22E0D3B90092C3F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0400E48022E0D3B90092C3F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0400E48322E0D3B90092C3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0400E48422E0D3B90092C3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0400E48622E0D3B90092C3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F7C53074BDEF08B21A647B /* Pods-RoomyApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/RoomyApp/Config/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YB.RoomyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0400E48722E0D3B90092C3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56734D5C53398690782DD376 /* Pods-RoomyApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/RoomyApp/Config/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YB.RoomyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0400E46E22E0D3B80092C3F5 /* Build configuration list for PBXProject "RoomyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0400E48322E0D3B90092C3F5 /* Debug */,
+				0400E48422E0D3B90092C3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0400E48522E0D3B90092C3F5 /* Build configuration list for PBXNativeTarget "RoomyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0400E48622E0D3B90092C3F5 /* Debug */,
+				0400E48722E0D3B90092C3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0400E46B22E0D3B80092C3F5 /* Project object */;
+}
